@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Fellix";
+    src: url('font/Fellix-SemiBold.ttf');
+   }
+   
+@font-face {
+    font-family: "MrEavesXLModOT";
+    src: url('font/MrEavesXLModOT-Reg.ttf');
+   }
+
+body{
+    margin:0;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;}
+
+.mockup{
+    position:relative;
+    height:550px;
+    width: 254px;
+    border:black 6px solid;
+    border-radius:25px;
+    background-color: #2B2B2C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow:hidden;
+}
+
+.hide{
+    position:absolute;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    top:265px;
+    right:8px;
+    background-color: #2B2B2C;
+}
+
+.hide2{
+    position:absolute;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    top:265px;
+    left:8px;
+    background-color: #2B2B2C;
+}
+
+.skip-button{
+    display:flex;
+    justify-content: flex-end;
+    cursor:pointer;
+}
+
+.skip-button p{
+    font-family : 'MrEavesXLModOT', serif;
+    color:#E9E7E2;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-right: 18px;
+}
+
+.spline{
+    height:250px;
+}
+
+.text{
+    margin-bottom:30px;
+}
+.text .title p{
+    font-family:'Fellix', serif;
+    font-weight:500;
+    font-size: 24px;
+    margin:0;
+    color:#E9E7E2;
+    padding-left:17px;
+}
+
+.text .argumentation p{
+    font-family : 'MrEavesXLModOT', serif;
+    font-weight:100;
+    font-size:14px;
+    line-height:1.5;
+    color:#E9E7E2;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.buttons{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons p{
+    font-family : 'MrEavesXLModOT', serif;
+    font-weight:100;
+    font-size:16px;
+}
+
+.button-connect{
+    color:#E37E46;
+    border:#E37E46 solid 1px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.button-connect p{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.link-store{
+    color:#F0EEE7;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.dots{
+    text-align: center;
+    margin-bottom:20px;
+    margin-left:8px;
+}
+.dot {
+    cursor: pointer;
+    height: 6px;
+    width: 6px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right:8px;
+  }
+  
+
+.active, .dot:hover {
+    background-color: #FA9B67;
+}
+
+.mySlides{
+    display:none;
+    animation: slidein 0.3s;
+}
+
+@keyframes slidein {
+    0% {
+        transform : translateX(100%);
+    }
+    100%{
+        transform : translateX(0);
+    }
+}
+
+@keyframes slideout{
+    0% {
+        transform : translateX(0);
+    }
+    100%{
+        transform : translateX(100%);
+    }
+}
+
+.slideout {
+    animation : slideout 0.3s;
+}
