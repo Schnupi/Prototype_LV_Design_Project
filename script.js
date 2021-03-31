@@ -7,7 +7,7 @@ const skip = document.querySelector('.skip-button');
 function plusSlides(n) {
     showSlides(slideIndex += n);
     if (n!=5) {
-        skip.style.opacity="1"
+        skip.style.opacity="0"
       }
 }
 
