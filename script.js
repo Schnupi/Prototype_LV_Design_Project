@@ -9,6 +9,9 @@ function plusSlides(n) {
     if (n!=5) {
         skip.style.opacity="0"
       }
+    else{
+        skip.style.opacity="0"
+    }
 }
 
 // Thumbnail image controls
