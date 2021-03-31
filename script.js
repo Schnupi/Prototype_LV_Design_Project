@@ -10,7 +10,7 @@ function plusSlides(n) {
         skip.style.opacity="0"
       }
     else{
-        skip.style.opacity="0"
+        skip.style.opacity="1"
     }
 }
 
