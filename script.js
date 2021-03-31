@@ -6,6 +6,9 @@ const skip = document.querySelector('.skip-button');
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
+    if (n!=5) {
+        skip.style.opacity="1"
+      }
 }
 
 // Thumbnail image controls
