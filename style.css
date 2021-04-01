@@ -106,9 +106,9 @@ body{
 }
 
 .button-connect{
-    color:#E37E46;
-    border:#E37E46 solid 1px;
-    border-radius:30px;
+    color:#F0EEE7;
+    background-color:#E37E46;
+    border-radius:10px;
     cursor:pointer;
 }
 
