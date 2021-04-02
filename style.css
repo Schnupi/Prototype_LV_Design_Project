@@ -35,20 +35,31 @@ body{
 
 .hide{
     position:absolute;
-    height:50px;
-    width:50px;
+    height:55px;
+    width:55px;
     border-radius: 50%;
-    top:265px;
+    top:266px;
     right:8px;
     background-color: #2B2B2C;
 }
 
-.hide2{
+
+.button-left{
     position:absolute;
     height:50px;
     width:50px;
     border-radius: 50%;
-    top:265px;
+    top:225px;
+    right:8px;
+    background-color: #2B2B2C;
+}
+
+.button-right{
+    position:absolute;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    top:225px;
     left:8px;
     background-color: #2B2B2C;
 }
@@ -67,12 +78,35 @@ body{
     margin-right: 18px;
 }
 
+.img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height:250px;
+}
+
+.imgslide-watch{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgslide-watch img{
+    z-index:1;
+}
+
 .spline{
     height:250px;
 }
 
 .text{
     margin-bottom:30px;
+}
+
+.title{
+    margin-top:40px;
 }
 .text .title p{
     font-family:'Fellix', serif;
