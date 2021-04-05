@@ -159,13 +159,14 @@ img{
     background-color:#E37E46;
     border-radius:10px;
     cursor:pointer;
+    margin-bottom:20px;
 }
 
 .button-discover p{
     margin-top:10px;
     margin-bottom:10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .dots{
