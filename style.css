@@ -157,7 +157,7 @@ img{
 .button-discover{
     color:#E37E46;
     background-color:#F8F7F5;
-    border : #E37E46 solid 2px; 
+    border : #E37E46 solid 1px; 
     border-radius:10px;
     cursor:pointer;
     margin-bottom:20px;
