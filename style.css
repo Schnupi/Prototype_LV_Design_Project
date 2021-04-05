@@ -144,7 +144,6 @@ img{
     color:#F0EEE7;
     background-color:#E37E46;
     border-radius:10px;
-    cursor:pointer;
 }
 
 .button-connect p{
@@ -159,7 +158,6 @@ img{
     background-color:#F8F7F5;
     border : #E37E46 solid 1px; 
     border-radius:10px;
-    cursor:pointer;
     margin-bottom:20px;
 }
 
