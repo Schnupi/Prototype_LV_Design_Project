@@ -10,7 +10,7 @@
 
 body{
     margin:0;
-    background-color:#FFEAD1;
+    background-color:#2B2B2C;
 }
 
 .container{
@@ -26,7 +26,8 @@ body{
     width: 254px;
     border:black 6px solid;
     border-radius:25px;
-    background-color: #2B2B2C;
+    background-color: #F8F7F5
+    ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,7 +41,8 @@ body{
     border-radius: 50%;
     top:266px;
     right:8px;
-    background-color: #2B2B2C;
+    background-color: #F8F7F5
+    ;
 }
 
 
