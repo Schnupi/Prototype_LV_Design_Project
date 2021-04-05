@@ -154,10 +154,18 @@ img{
     padding-right: 20px;
 }
 
-.link-store{
+.button-discover{
     color:#F0EEE7;
-    margin-top:10px;
+    background-color:#E37E46;
+    border-radius:10px;
     cursor:pointer;
+}
+
+.button-discover p{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .dots{
