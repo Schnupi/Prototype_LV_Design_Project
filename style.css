@@ -10,7 +10,7 @@
 
 body{
     margin:0;
-    background-color:#2B2B2C;
+    background-color:#0B0B0C;
 }
 
 .container{
@@ -41,7 +41,7 @@ body{
     border-radius: 50%;
     top:266px;
     right:8px;
-    background-color: #F8F7F5
+    background-color: #0B0B0C
     ;
 }
 
@@ -147,7 +147,7 @@ img{
 }
 
 .button-connect p{
-    margin-top:10px;
+    margin-top:15px;
     margin-bottom:10px;
     padding-left: 20px;
     padding-right: 20px;
