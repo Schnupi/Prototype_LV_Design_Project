@@ -10,7 +10,7 @@
 
 body{
     margin:0;
-    background-color:#0B0B0C;
+    background-color:#FFE0BB;
 }
 
 .container{
@@ -26,8 +26,7 @@ body{
     width: 254px;
     border:black 6px solid;
     border-radius:25px;
-    background-color: #F8F7F5
-    ;
+    background-color: #0B0B0C;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
