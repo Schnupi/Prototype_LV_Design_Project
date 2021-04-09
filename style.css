@@ -156,7 +156,9 @@ img{
 }
 
 .button-discover{
-    color:#F8F7F5;
+    color:#E37E46;
+    border : #E37E46 solid 1px;
+    border-radius:10px;
     margin-bottom:20px;
 }
 
