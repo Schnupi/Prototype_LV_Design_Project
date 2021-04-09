@@ -136,7 +136,7 @@ img{
 .buttons p{
     font-family : 'MrEavesXLModOT', serif;
     font-weight:100;
-    font-size:16px;
+    font-size:12px;
 }
 
 .button-connect{
@@ -153,10 +153,7 @@ img{
 }
 
 .button-discover{
-    color:#E37E46;
-    background-color:#F8F7F5;
-    border : #E37E46 solid 1px; 
-    border-radius:10px;
+    color:#F8F7F5;
     margin-bottom:20px;
 }
 
